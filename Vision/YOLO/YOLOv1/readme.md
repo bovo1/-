@@ -16,3 +16,5 @@ YOLOv1이 만들어질 달시에 가장 성능이 좋은 classfication 모델은
 그래서 보통 VGG16을 backbone으로 사용한 모델들이 많은데 YOLOv1은 자신만의 backbone인 Darknet을 만들었습니다.  
 
 DarkNet의 특징은 448X448 Input을 받아 VGG의 Input 이미지 크기인 224X224 보다 크다는 것과 처리 속도가 빠르다는 점입니다.  
+
+Pytorch를 사용해서 구현할 예정인데 DarkNet이 아닌 VGG16을 사용하는 구조입니다.  
